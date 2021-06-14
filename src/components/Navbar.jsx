@@ -8,7 +8,12 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img className="logo" src={helloWorldLogo} alt="Hello World Logo" />
+          <div className="codec">
+            <h1>CodeC</h1>
+          </div>
+          <div className="helloworld">
+            <h6>print "Hello World!"</h6>
+          </div>
         </a>
         <button
           className="navbar-toggler"
