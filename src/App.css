@@ -8,6 +8,7 @@
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-grey-text: #404040;
+  --primary-grey-bg: #f8f8f8;
 }
 
 body {
@@ -310,7 +311,7 @@ a.github:hover {
   background: var(--primary-white) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 140vh;
+  height: 130vh;
 }
 
 .skills-title {
@@ -401,6 +402,12 @@ a.github:hover {
 
 .project {
   background-color: var(--primary-white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
 }
 
 .project-row {
@@ -441,4 +448,78 @@ a.github:hover {
 }
 .project-link-name {
   color: black;
+}
+
+/******************************* TIMELINE/EXPERIENCE *********************************/
+
+.timeline-wraper {
+  position: relative;
+  background: var(--primary-white) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 220vh;
+}
+
+.timeline-main {
+  background: var(--primary-grey-bg);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+}
+
+.timeline-title {
+  margin: 5rem 5rem 5rem 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+
+  color: var(--primary-tomato);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.vert-timeline-elmnt h3 {
+  color: var(--primary-orange);
+  margin-bottom: 0.25em;
+  padding-top: 0.25em;
+}
+
+.vert-timeline-elmnt h5 {
+  padding-top: 0.25em;
+  font-size: 1rem;
+  color: black;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+  color: var(--primary-grey-text);
+}
+
+.timeline-button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: #404040;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
 }
