@@ -523,3 +523,109 @@ a.github:hover {
     margin-top: 1.5em;
   }
 }
+
+/******************************* Contact *********************************/
+.contact-wraper {
+  position: relative;
+  background: var(--primary-white) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+}
+
+.contact-main {
+  background: var(--primary-grey-bg);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+}
+
+.contact_info_item {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  padding: 1em 1em;
+  background-color: var(--primary-white);
+  border: 1px solid var(--primary-grey-bg);
+}
+
+.contact_info_item img {
+  margin-right: 1rem;
+}
+
+.contact-title {
+  margin: 5rem 5rem 5rem 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+
+  color: var(--primary-tomato);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.contact_info_title {
+  color: var(--primary-grey-text);
+  font-weight: bold;
+}
+
+.contact_form_conatiner {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  padding: 1em 1em;
+  background-color: var(--primary-white);
+  border: 1px solid var(--primary-grey-bg);
+  border-radius: 0.5rem;
+}
+
+.contact_form_title {
+  font-size: 1.7rem;
+  color: var(--primary-orange);
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.contact_form_name {
+  margin-left: 1rem;
+  padding-right: 3rem;
+}
+
+input {
+  padding: 0.5em 0.5em;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--primary-tomato);
+}
+
+.text_field {
+  margin-left: 2rem;
+  outline: none;
+  border: 0.5px medium;
+  color: black;
+  border-radius: 0.35rem;
+  padding: 1em 1em;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.contact_submit_button {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  outline: none;
+}
+
+.contact-email-subject input {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 90%;
+}

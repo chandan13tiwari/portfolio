@@ -18,7 +18,7 @@ let timelineElements = [
   {
     id: 3,
     title: "Software Engineer/Analyst",
-    location: "Capgemini India, Pune",
+    location: "Capgemini India,Pune",
     description: "Converting data to a graphical interface",
 
     date: "2019 - 2020",

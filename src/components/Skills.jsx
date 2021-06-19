@@ -53,15 +53,15 @@ function Skills() {
             >
               Skilled in Front end and Back end development
             </p>
-            <div
-              className="skills-box"
-              data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="skills-data">
+            <div className="skills-box">
+              <div
+                className="skills-data"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">JAVA</span>
                 </div>
@@ -75,7 +75,14 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="skills-data">
+              <div
+                className="skills-data"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">Spring Framework</span>
                 </div>
@@ -88,7 +95,14 @@ function Skills() {
                   />
                 </div>
               </div>
-              <div className="skills-data">
+              <div
+                className="skills-data"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">ReactJS</span>
                 </div>
@@ -101,7 +115,14 @@ function Skills() {
                   />
                 </div>
               </div>
-              <div className="skills-data">
+              <div
+                className="skills-data"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">Angular JS</span>
                 </div>
@@ -138,15 +159,15 @@ function Skills() {
             >
               Skilled with efficiently using Databses for storage
             </p>
-            <div
-              className="skills-box"
-              data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="skills-data">
+            <div className="skills-box">
+              <div
+                className="skills-data"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">Oracle</span>
                 </div>
@@ -159,7 +180,14 @@ function Skills() {
                   />
                 </div>
               </div>
-              <div className="skills-data">
+              <div
+                className="skills-data"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">MySql</span>
                 </div>
@@ -196,15 +224,15 @@ function Skills() {
             >
               Skilled with efficiently using version control
             </p>
-            <div
-              className="skills-box"
-              data-aos="fade-left"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="skills-data">
+            <div className="skills-box">
+              <div
+                className="skills-data"
+                data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">GitHub</span>
                 </div>
@@ -217,7 +245,14 @@ function Skills() {
                   />
                 </div>
               </div>
-              <div className="skills-data">
+              <div
+                className="skills-data"
+                data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">RTC</span>
                 </div>
@@ -256,15 +291,15 @@ function Skills() {
             >
               Experienced with Automation tools
             </p>
-            <div
-              className="skills-box"
-              data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="skills-data">
+            <div className="skills-box">
+              <div
+                className="skills-data"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">Jenkins</span>
                 </div>
@@ -277,7 +312,14 @@ function Skills() {
                   />
                 </div>
               </div>
-              <div className="skills-data">
+              <div
+                className="skills-data"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">KANA.</span>
                 </div>
@@ -290,7 +332,14 @@ function Skills() {
                   />
                 </div>
               </div>
-              <div className="skills-data">
+              <div
+                className="skills-data"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">Brickstreet Connect</span>
                 </div>
@@ -327,15 +376,15 @@ function Skills() {
             >
               Having skill with virtual systems
             </p>
-            <div
-              className="skills-box"
-              data-aos="fade-down"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="skills-data">
+            <div className="skills-box">
+              <div
+                className="skills-data"
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">AWS</span>
                 </div>
@@ -372,15 +421,15 @@ function Skills() {
             >
               Skills other than Technology stuff
             </p>
-            <div
-              className="skills-box"
-              data-aos="fade-left"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="skills-data">
+            <div className="skills-box">
+              <div
+                className="skills-data"
+                data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">Music Composition</span>
                 </div>
@@ -393,7 +442,14 @@ function Skills() {
                   />
                 </div>
               </div>
-              <div className="skills-data">
+              <div
+                className="skills-data"
+                data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">Music Production</span>
                 </div>
@@ -406,7 +462,14 @@ function Skills() {
                   />
                 </div>
               </div>
-              <div className="skills-data">
+              <div
+                className="skills-data"
+                data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
                 <div className="skills-names">
                   <span className="skills-name">Singing</span>
                 </div>
