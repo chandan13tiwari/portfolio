@@ -187,28 +187,49 @@ a.social:hover {
 a.youtube {
   color: #bb0000;
 }
+a.youtube:hover {
+  color: #bb0000;
+}
 
 a.facebook {
+  color: #3b5998;
+}
+a.facebook:hover {
   color: #3b5998;
 }
 
 a.instagram {
   color: #125688;
 }
+a.instagram:hover {
+  color: #125688;
+}
 
 a.twitter {
+  color: #55acee;
+}
+a.twitter:hover {
   color: #55acee;
 }
 
 a.gmail {
   color: #dd4b39;
 }
+a.gmail:hover {
+  color: #dd4b39;
+}
 
 a.linkedin {
   color: #007bb5;
 }
+a.linkedin:hover {
+  color: #007bb5;
+}
 
 a.github {
+  color: white;
+}
+a.github:hover {
   color: white;
 }
 
@@ -255,6 +276,7 @@ a.github {
   color: var(--primary-tomato);
   text-transform: capitalize;
 }
+
 .about-subtitle {
   text-align: left;
   font-size: 2.5rem;
@@ -279,4 +301,144 @@ a.github {
   margin-right: 2rem;
 
   text-align: left;
+}
+
+/******************************* SKILLS *********************************/
+
+.skills-wraper {
+  position: relative;
+  background: var(--primary-white) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 140vh;
+}
+
+.skills-title {
+  margin: 5rem 5rem 5rem 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+
+  color: var(--primary-tomato);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.skills-box {
+  align-content: center;
+}
+
+.skill-main-box {
+  margin-right: 5rem;
+  margin-left: 1rem;
+}
+
+.skills {
+  justify-content: center;
+  text-align: center;
+}
+.skills-subtitle {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--primary-orange);
+}
+.skills-text {
+  margin-bottom: 2rem;
+  color: var(--primary-grey-text);
+}
+.skills-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+}
+.skill-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: black;
+}
+.skills-names {
+  display: flex;
+  align-items: center;
+}
+
+.skills-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--primary-red);
+  height: 0.25rem;
+  border-radius: 0.5rem;
+  z-index: 1;
+  width: 100%;
+}
+
+/******************************* PROJECTS *********************************/
+
+.project-wraper {
+  position: relative;
+  background: var(--primary-white) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.project-title {
+  margin: 5rem 5rem 5rem 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+
+  color: var(--primary-tomato);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.project {
+  background-color: var(--primary-white);
+}
+
+.project-row {
+  margin: 3rem 3rem 3rem 3rem;
+}
+
+.project-container {
+  justify-items: center;
+}
+.project-img {
+  position: relative;
+  overflow: hidden;
+  margin-left: 6rem;
+  justify-items: center;
+}
+.project-img img {
+  border-radius: 0.5rem;
+  width: 300px;
+}
+.project-link {
+  position: absolute;
+  bottom: -100%;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+  text-align: center;
+  text-decoration: none;
+}
+.project-img:hover .project-link {
+  bottom: 0;
+}
+.project-link-name {
+  color: black;
 }

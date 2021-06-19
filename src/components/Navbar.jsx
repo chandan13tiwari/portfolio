@@ -1,5 +1,4 @@
 import React from "react";
-import helloWorldLogo from "../asset/helloworld.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -40,7 +39,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Services
+                Skills
               </a>
             </li>
             <li className="nav-item">
