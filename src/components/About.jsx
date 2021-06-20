@@ -53,10 +53,14 @@ function About() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat
-              ut voluptates soluta, aut earum nemo recusandae cumque
-              perferendis! Recusandae alias accusamus atque.
+              I came from a small city of Uttarakhand named Haldwani which is
+              located near Nainital. Having over more than 8+ years of
+              experience in coding and different programming languages and 2+
+              years of experience in IT industry. A Big fan of JAVA.
+              <br /> <br />
+              Apart of having my professional life, I'm more into Music. Having
+              more than 2+ years experience in professional Music production.
+              Singing and music composition are my stress busters.
             </p>
           </div>
         </div>
