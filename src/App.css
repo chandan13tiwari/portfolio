@@ -1,38 +1,703 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-tomato: #ff6347;
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+  --primary-grey-text: #404040;
+  --primary-grey-bg: #f8f8f8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/******************************* NAVBAR *********************************/
+
+nav {
+  z-index: 2;
+}
+
+.logo {
+  width: 16.25rem;
+}
+
+/*------ MENU LINKS -------*/
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  color: var(--primary-white) !important;
+  border-bottom: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand h1 {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  color: var(--primary-white);
+  font-family: "Dancing Script", cursive !important;
+  /*height: 6rem !important;*/
+}
+
+.navbar-brand h3 {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  color: var(--primary-white);
+
+  font-family: "Dancing Script", cursive !important;
+  /*height: 6rem !important;*/
+}
+
+/***** change page component to make it viewable in small screen*****/
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-bottom: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.1875rem solid var(--primary-orange);
+}
+
+/******************************* HEADER *********************************/
+
+.header-wraper {
+  position: relative;
+  background: url(/src/asset/laptop-bg-4.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: var(--primary-tomato);
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+.myname {
+  color: var(--primary-orange);
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+/***** change page component to make it viewable in small screen*****/
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .myname {
+    font-size: 1.5rem !important;
+  }
+}
+
+/*--------TYPED TEXT-----------*/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+/***** change page component to make it viewable in small screen*****/
+@media (max-width: 768px) {
+  .typed-text {
+    font-size: 1.2rem !important;
+  }
+}
+
+/*--------HEADER MAIN OFFER BUTTON-----------*/
+.btn-main-offer {
+  border: 1px solid var(--primary-white);
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  text-decoration: none;
+
+  text-align: center;
+
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: 0.2s ease-in-out;
+}
+
+/*if you use any external package like particles.js, then we can pick the class name by inspect element on that thing from browser*/
+
+/*------------ PARTICLE JS -------------*/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+/****change page components page responsive when open in small screen *****/
+
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
+
+/*------------ Social media icons -------------*/
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #bb0000;
+}
+a.youtube:hover {
+  color: #bb0000;
+}
+
+a.facebook {
+  color: #3b5998;
+}
+a.facebook:hover {
+  color: #3b5998;
+}
+
+a.instagram {
+  color: #125688;
+}
+a.instagram:hover {
+  color: #125688;
+}
+
+a.twitter {
+  color: #55acee;
+}
+a.twitter:hover {
+  color: #55acee;
+}
+
+a.gmail {
+  color: #dd4b39;
+}
+a.gmail:hover {
+  color: #dd4b39;
+}
+
+a.linkedin {
+  color: #007bb5;
+}
+a.linkedin:hover {
+  color: #007bb5;
+}
+
+a.github {
+  color: white;
+}
+a.github:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 768px) {
+  a.social {
+    font-size: 0.5rem;
+    margin: 0 0.5rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/******************************* ABOUT US *********************************/
+
+.about-wraper {
+  position: relative;
+  background: var(--primary-white) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.about-main {
+  background: var(--primary-white);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.about-title {
+  margin: 5rem 5rem 5rem 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--primary-tomato);
+  text-transform: capitalize;
+}
+
+.about-subtitle {
+  text-align: left;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-orange);
+  margin-bottom: 1rem;
+}
+.about-img {
+  justify-self: center;
+  text-align: center;
+}
+.about-img img {
+  width: 400px;
+  border-radius: 0.5rem;
+}
+
+.about-text {
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-grey-text);
+  margin-right: 2rem;
+
+  text-align: left;
+}
+
+/******************************* SKILLS *********************************/
+
+.skills-wraper {
+  position: relative;
+  background: var(--primary-white) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 160vh;
+}
+
+.skills-main {
+  background: var(--primary-white);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.skills-title {
+  margin: 5rem 5rem 5rem 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+
+  color: var(--primary-tomato);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.skills-box {
+  align-content: center;
+}
+
+.skill-main-box {
+  margin-right: 5rem;
+  margin-left: 1rem;
+}
+
+.skills {
+  justify-content: center;
+  text-align: center;
+}
+.skills-subtitle {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--primary-orange);
+}
+.skills-text {
+  margin-bottom: 2rem;
+  color: var(--primary-grey-text);
+}
+.skills-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+}
+.skill-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: black;
+}
+
+.skills-names {
+  display: flex;
+  align-items: center;
+}
+
+.skills-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--primary-red);
+  height: 0.25rem;
+  border-radius: 0.5rem;
+  z-index: 1;
+  width: 100%;
+}
+
+/******************************* PROJECTS *********************************/
+
+.project-wraper {
+  position: relative;
+  background: var(--primary-white) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+}
+
+.project-main {
+  background: var(--primary-white);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.project-title {
+  margin: 5rem 5rem 5rem 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+
+  color: var(--primary-tomato);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.project {
+  background-color: var(--primary-white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+}
+
+.project-row {
+  margin: 3rem 3rem 3rem 3rem;
+}
+
+.project-container {
+  justify-items: center;
+}
+.project-img {
+  position: relative;
+  overflow: hidden;
+  margin-left: 6rem;
+  justify-items: center;
+}
+.project-img img {
+  border-radius: 0.5rem;
+  width: 300px;
+}
+.project-link {
+  position: absolute;
+  bottom: -100%;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+  text-align: center;
+  text-decoration: none;
+}
+.project-img:hover .project-link {
+  bottom: 0;
+}
+.project-link-name {
+  color: black;
+}
+
+/******************************* TIMELINE/EXPERIENCE *********************************/
+
+.timeline-wraper {
+  position: relative;
+  background: var(--primary-white) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 240vh;
+}
+
+.timeline-main {
+  background: var(--primary-grey-bg);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.timeline-title {
+  margin: 5rem 5rem 5rem 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+
+  color: var(--primary-tomato);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.vert-timeline-elmnt h3 {
+  color: var(--primary-orange);
+  margin-bottom: 0.25em;
+  padding-top: 0.25em;
+}
+
+.vert-timeline-elmnt h5 {
+  padding-top: 0.25em;
+  font-size: 1rem;
+  color: black;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+  color: var(--primary-grey-text);
+}
+
+.timeline-button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: #404040;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+/******************************* Contact *********************************/
+.contact-wraper {
+  position: relative;
+  background: var(--primary-white) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+}
+
+.contact-main {
+  background: var(--primary-grey-bg);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.contact_info_item {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  padding: 1em 1em;
+  background-color: var(--primary-white);
+  border: 1px solid var(--primary-grey-bg);
+}
+
+.contact_info_item img {
+  margin-right: 1rem;
+}
+
+.contact-title {
+  margin: 5rem 5rem 5rem 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+
+  color: var(--primary-tomato);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.contact_info_title {
+  color: var(--primary-grey-text);
+  font-weight: bold;
+}
+
+.contact_form_conatiner {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  padding: 1em 1em;
+  background-color: var(--primary-white);
+  border: 1px solid var(--primary-grey-bg);
+  border-radius: 0.5rem;
+}
+
+.contact_form_title {
+  font-size: 1.7rem;
+  color: var(--primary-orange);
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.contact_form_name {
+  margin-left: 1rem;
+  padding-right: 3rem;
+}
+
+input {
+  padding: 0.5em 0.5em;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--primary-tomato);
+}
+
+.text_field {
+  margin-left: 2rem;
+  outline: none;
+  border: 0.5px medium;
+  color: black;
+  border-radius: 0.35rem;
+  padding: 1em 1em;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.contact_submit_button {
+  border: 1px solid var(--primary-orange);
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  text-decoration: none;
+  background-color: var(--primary-orange);
+  text-align: center;
+
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.contact_submit_button:hover {
+  border: 1px solid var(--primary-red);
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: 0.2s ease-in-out;
+}
+
+.contact-email-subject input {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+/*********************************FOOTER****************************/
+.footer {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+.footer-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-social {
+  margin-bottom: 2rem;
+}
+.footer-icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 1rem;
 }
