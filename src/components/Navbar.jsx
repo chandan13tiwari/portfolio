@@ -1,17 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-dark">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <div className="codec">
-            <h1>CodeC</h1>
-          </div>
-          <div className="helloworld">
-            <h6>print "Hello World!"</h6>
+          <div className="name">
+            <h1>Chandan Tiwari</h1>
           </div>
         </a>
         <button
@@ -28,34 +26,55 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-              <a className="nav-link" aria-current="page" href="#">
+              <Link
+                className="nav-link"
+                aria-current="page"
+                to="home"
+                smooth={true}
+                duration={10}
+              >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="about" smooth={true} duration={10}>
                 About me
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                className="nav-link"
+                to="skills"
+                smooth={true}
+                duration={10}
+              >
                 Skills
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                className="nav-link"
+                to="experience"
+                smooth={true}
+                duration={10}
+              >
                 Experience
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="project">
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                className="nav-link"
+                to="contact"
+                smooth={true}
+                duration={10}
+              >
                 Contacts
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

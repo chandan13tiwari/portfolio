@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -36,14 +42,30 @@ function Contact() {
   }
 
   return (
-    <div className="contact-wraper">
+    <div className="contact-wraper" id="contact">
       <div className="contact-main">
-        <h1 className="contact-title">Contact</h1>
+        <h1
+          className="contact-title"
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          Contact
+        </h1>
         <div className="contact-info">
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-6 offset-lg-3 d-flex justify-content-between">
-                <div className="contact_info_item d-flex justify-content-start align-items-center">
+                <div
+                  className="contact_info_item d-flex justify-content-start align-items-center"
+                  data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                >
                   <img
                     src="https://img.icons8.com/office/24/000000/phone.png"
                     alt="phone"
@@ -55,7 +77,14 @@ function Contact() {
                   </div>
                 </div>
 
-                <div className="contact_info_item d-flex justify-content-start align-items-center">
+                <div
+                  className="contact_info_item d-flex justify-content-start align-items-center"
+                  data-aos="fade-down"
+                  data-aos-offset="200"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                >
                   <img
                     src="https://img.icons8.com/office/24/000000/email.png"
                     alt="phone"
@@ -68,7 +97,14 @@ function Contact() {
                   </div>
                 </div>
 
-                <div className="contact_info_item d-flex justify-content-start align-items-center">
+                <div
+                  className="contact_info_item d-flex justify-content-start align-items-center"
+                  data-aos="fade-left"
+                  data-aos-offset="200"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                >
                   <img
                     src="https://img.icons8.com/office/24/000000/address.png"
                     alt="phone"
@@ -87,7 +123,14 @@ function Contact() {
           <div className="container">
             <div className="row">
               <div className="col-lg-8 offset-lg-2">
-                <div className="contact_form_conatiner mt-5 ">
+                <div
+                  className="contact_form_conatiner mt-5 "
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                >
                   <div className="contact_form_title">Get in Touch</div>
                   <form id="contact_form" onSubmit={sendEmail}>
                     <div className="contact_form_name d-flex justify-content-between align-items-between">
@@ -129,7 +172,7 @@ function Contact() {
                       />
                     </div>
 
-                    <div className="contact_form_text mt-3">
+                    <div className="contact_form_text mt-4">
                       <textarea
                         className="text_field contact_form_message"
                         placeholder="Message"
@@ -141,7 +184,7 @@ function Contact() {
                     <div className="contact_form_button">
                       <button
                         type="submit"
-                        className="button contact_submit_button btn btn-primary"
+                        className="button contact_submit_button"
                       >
                         Send Message
                       </button>

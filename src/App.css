@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
 :root {
   --primary-white: #fff;
@@ -46,14 +47,16 @@ nav ul li {
   max-width: 17.25rem;
   padding: 0 !important;
   color: var(--primary-white);
+  font-family: "Dancing Script", cursive !important;
   /*height: 6rem !important;*/
 }
 
-.navbar-brand h6 {
+.navbar-brand h3 {
   max-width: 17.25rem;
   padding: 0 !important;
   color: var(--primary-white);
-  font-style: italic;
+
+  font-family: "Dancing Script", cursive !important;
   /*height: 6rem !important;*/
 }
 
@@ -80,7 +83,7 @@ nav ul li {
   background: url(/src/asset/laptop-bg-4.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -250,10 +253,14 @@ a.github:hover {
   background: var(--primary-white) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 80vh;
 }
 
-/* .main-info {
+.about-main {
+  background: var(--primary-white);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
   display: flex;
   position: absolute;
   top: 0;
@@ -261,12 +268,8 @@ a.github:hover {
   right: 0;
   bottom: 0;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  z-index: 1;
-} */
+  margin-top: 3rem;
+}
 
 .about-title {
   margin: 5rem 5rem 5rem 5rem;
@@ -311,7 +314,22 @@ a.github:hover {
   background: var(--primary-white) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 130vh;
+  height: 160vh;
+}
+
+.skills-main {
+  background: var(--primary-white);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  margin-top: 3rem;
 }
 
 .skills-title {
@@ -363,6 +381,7 @@ a.github:hover {
   margin-right: 1rem;
   color: black;
 }
+
 .skills-names {
   display: flex;
   align-items: center;
@@ -386,7 +405,22 @@ a.github:hover {
   background: var(--primary-white) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 110vh;
+}
+
+.project-main {
+  background: var(--primary-white);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  margin-top: 3rem;
 }
 
 .project-title {
@@ -457,7 +491,7 @@ a.github:hover {
   background: var(--primary-white) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 220vh;
+  height: 240vh;
 }
 
 .timeline-main {
@@ -472,6 +506,7 @@ a.github:hover {
   right: 0;
   bottom: 0;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 .timeline-title {
@@ -545,6 +580,7 @@ a.github:hover {
   right: 0;
   bottom: 0;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 .contact_info_item {
@@ -618,14 +654,50 @@ input:focus {
 }
 
 .contact_submit_button {
-  margin-top: 2rem;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
-  outline: none;
+  border: 1px solid var(--primary-orange);
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  text-decoration: none;
+  background-color: var(--primary-orange);
+  text-align: center;
+
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.contact_submit_button:hover {
+  border: 1px solid var(--primary-red);
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: 0.2s ease-in-out;
 }
 
 .contact-email-subject input {
   margin-left: 2rem;
   margin-top: 1rem;
   width: 90%;
+}
+
+/*********************************FOOTER****************************/
+.footer {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+.footer-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-social {
+  margin-bottom: 2rem;
+}
+.footer-icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 1rem;
 }

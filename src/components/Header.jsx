@@ -4,7 +4,7 @@ import SocialMedia from "./SocialMedia";
 
 const Header = () => {
   return (
-    <div className="header-wraper">
+    <div className="header-wraper" id="home">
       <div className="main-info">
         <h1>
           Hi, I'm <span className="myname">Chandan Tiwari</span>

@@ -14,8 +14,8 @@ function Projects() {
   }, []);
 
   return (
-    <div className="project-wraper">
-      <div className="container" id="project">
+    <div className="project-wraper" id="project">
+      <div className="project-main container">
         <h2
           className="project-title"
           data-aos="fade-right"

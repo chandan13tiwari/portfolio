@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import profilePic from "../asset/perfil.png";
+import profilePic from "../asset/me.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -9,8 +9,8 @@ function About() {
   }, []);
 
   return (
-    <div className="about-wraper">
-      <div className="container" id="about">
+    <div className="about-wraper" id="about">
+      <div className="about-main container">
         <h2
           className="about-title"
           data-aos="fade-up"

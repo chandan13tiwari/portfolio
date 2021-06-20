@@ -1,5 +1,10 @@
 import React, { useEffect } from "react";
-import skillFotu from "../asset/work3.jpg";
+import spring from "../asset/spring2.png";
+import oracle from "../asset/oracle.png";
+import rtc from "../asset/rtc.jpg";
+import sql from "../asset/sql.png";
+import kana from "../asset/kana.jpeg";
+import bsc from "../asset/bsc.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faJava,
@@ -9,6 +14,7 @@ import {
   faAws,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import { faMusic, faMicrophone } from "@fortawesome/free-solid-svg-icons";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -18,8 +24,8 @@ function Skills() {
   }, []);
 
   return (
-    <div className="skills-wraper">
-      <div className="container" id="skills">
+    <div className="skills-wraper" id="skills">
+      <div className="skills-main container">
         <h2
           className="skills-title"
           data-aos="fade-right"
@@ -51,7 +57,8 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Skilled in Front end and Back end development
+              Having more than 8+ yrs of experience on some Frontend & Backend
+              languages like
             </p>
             <div className="skills-box">
               <div
@@ -87,12 +94,8 @@ function Skills() {
                   <span className="skills-name">Spring Framework</span>
                 </div>
                 <div className="skills-bar skills-spring"></div>
-                <div>
-                  <FontAwesomeIcon
-                    icon={faJava}
-                    size="2x"
-                    className="skill-icon"
-                  />
+                <div className="spring-img">
+                  <img src={spring} className="skill-icon" width="35px" />
                 </div>
               </div>
               <div
@@ -157,7 +160,8 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Skilled with efficiently using Databses for storage
+              Perfectly knows how to play with the data like creating, reading,
+              updating and deleting data using
             </p>
             <div className="skills-box">
               <div
@@ -173,11 +177,7 @@ function Skills() {
                 </div>
                 <div className="skills-bar skills-oracle"></div>
                 <div>
-                  <FontAwesomeIcon
-                    icon={faJava}
-                    size="2x"
-                    className="skill-icon"
-                  />
+                  <img src={oracle} className="skill-icon" width="35px" />
                 </div>
               </div>
               <div
@@ -193,11 +193,7 @@ function Skills() {
                 </div>
                 <div className="skills-bar skills-sql"></div>
                 <div>
-                  <FontAwesomeIcon
-                    icon={faJava}
-                    size="2x"
-                    className="skill-icon"
-                  />
+                  <img src={sql} className="skill-icon" width="35px" />
                 </div>
               </div>
             </div>
@@ -222,7 +218,8 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Skilled with efficiently using version control
+              Having knowledge on how to collab with others and keep track of
+              our projects using
             </p>
             <div className="skills-box">
               <div
@@ -258,11 +255,7 @@ function Skills() {
                 </div>
                 <div className="skills-bar skills-rtc"></div>
                 <div>
-                  <FontAwesomeIcon
-                    icon={faJava}
-                    size="2x"
-                    className="skill-icon"
-                  />
+                  <img src={rtc} className="skill-icon" width="35px" />
                 </div>
               </div>
             </div>
@@ -279,7 +272,7 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Tools
+              CRM Softwares
             </h2>
             <p
               className="skills-text"
@@ -289,7 +282,8 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Experienced with Automation tools
+              Having experience on some Customer Relationship Management
+              Services like
             </p>
             <div className="skills-box">
               <div
@@ -325,11 +319,7 @@ function Skills() {
                 </div>
                 <div className="skills-bar skills-kana"></div>
                 <div>
-                  <FontAwesomeIcon
-                    icon={faJava}
-                    size="2x"
-                    className="skill-icon"
-                  />
+                  <img src={kana} className="skill-icon" width="35px" />
                 </div>
               </div>
               <div
@@ -345,11 +335,7 @@ function Skills() {
                 </div>
                 <div className="skills-bar skills-bsc"></div>
                 <div>
-                  <FontAwesomeIcon
-                    icon={faJava}
-                    size="2x"
-                    className="skill-icon"
-                  />
+                  <img src={bsc} className="skill-icon" width="35px" />
                 </div>
               </div>
             </div>
@@ -374,7 +360,8 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Having skill with virtual systems
+              Skilled with the web services of world's most comprehensive and
+              broadly adopted cloud platform
             </p>
             <div className="skills-box">
               <div
@@ -419,7 +406,8 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Skills other than Technology stuff
+              Some of my stuff that I used to do in my free time other than
+              developing Softwares
             </p>
             <div className="skills-box">
               <div
@@ -436,7 +424,7 @@ function Skills() {
                 <div className="skills-bar skills-music-c"></div>
                 <div>
                   <FontAwesomeIcon
-                    icon={faJava}
+                    icon={faMusic}
                     size="2x"
                     className="skill-icon"
                   />
@@ -456,7 +444,7 @@ function Skills() {
                 <div className="skills-bar skills-music-p"></div>
                 <div>
                   <FontAwesomeIcon
-                    icon={faJava}
+                    icon={faMusic}
                     size="2x"
                     className="skill-icon"
                   />
@@ -476,7 +464,7 @@ function Skills() {
                 <div className="skills-bar skills-singing"></div>
                 <div>
                   <FontAwesomeIcon
-                    icon={faJava}
+                    icon={faMicrophone}
                     size="2x"
                     className="skill-icon"
                   />

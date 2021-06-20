@@ -1,11 +1,5 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGraduationCap,
-  faBuilding,
-  faSchool,
-  faIndustry,
-} from "@fortawesome/free-solid-svg-icons";
+import React, { useEffect } from "react";
+
 import timelineElements from "../resources/timelineElements";
 
 import {
@@ -13,13 +7,26 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import dot from "../asset/dot.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Experience() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <div className="timeline-wraper">
+    <div className="timeline-wraper" id="experience">
       <div className="timeline-main">
-        <h1 className="timeline-title">My Experience</h1>
+        <h1
+          className="timeline-title"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          My Experience
+        </h1>
         <VerticalTimeline>
           {timelineElements.map((element) => {
             return (

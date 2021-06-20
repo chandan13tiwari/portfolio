@@ -9,30 +9,47 @@ import {
   faGoogle,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 
 function SocialMedia() {
   return (
     <div className="social-container">
-      <a href="#" className="youtube social">
+      <a
+        href="https://www.youtube.com/channel/UCxyt1YhqRwyNajqyEbk4lMQ"
+        className="youtube social"
+        target="_blank"
+      >
         <FontAwesomeIcon icon={faYoutube} size="2x" />
       </a>
-      <a href="#" className="facebook social">
+      <a
+        href="https://www.facebook.com/chandan.tiwari.3114935/"
+        className="facebook social"
+        target="_blank"
+      >
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
-      <a href="#" className="twitter social">
+      <a href="#" className="twitter social" target="_blank">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
-      <a href="#" className="instagram social">
+      <a
+        href="https://www.instagram.com/chandan13tiwari/"
+        className="instagram social"
+        target="_blank"
+      >
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
-      <a href="#" className="gmail social">
-        <FontAwesomeIcon icon={faGoogle} size="2x" />
-      </a>
-      <a href="#" className="linkedin social">
+
+      <a
+        href="https://www.linkedin.com/in/chandan-tiwari-uk/"
+        className="linkedin social"
+        target="_blank"
+      >
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
-      <a href="#" className="github social">
+      <a
+        href="https://github.com/chandan13tiwari"
+        className="github social"
+        target="_blank"
+      >
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
     </div>
