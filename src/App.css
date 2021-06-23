@@ -529,6 +529,9 @@ a.github:hover {
   overflow: hidden;
   margin-left: 6rem;
   justify-items: center;
+  align-items: center;
+  display: flex;
+  
 }
 .project-img img {
   border-radius: 0.5rem;
@@ -555,6 +558,7 @@ a.github:hover {
 }
 .project-link-name {
   color: black;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -592,7 +596,7 @@ a.github:hover {
     transition: 0.3s;
     text-align: center;
     text-decoration: none;
-    margin-left: 1.6rem;
+    
   }
   
   .project-row {
@@ -611,6 +615,13 @@ a.github:hover {
     margin-right: 1rem;
    text-align: center;
   }
+
+  .proj-img {
+    width: 20%;
+    height: 20%;
+  }
+
+  
  
 }
 
