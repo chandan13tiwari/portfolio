@@ -253,7 +253,7 @@ a.github:hover {
   background: var(--primary-white) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 100%;
 }
 
 .about-main {
@@ -261,14 +261,11 @@ a.github:hover {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   color: rgb(53, 53, 53);
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  overflow: hidden;
+  padding-top: 5rem;
   flex-direction: column;
   margin-top: 3rem;
+  
 }
 
 .about-title {
@@ -304,7 +301,42 @@ a.github:hover {
   color: var(--primary-grey-text);
   margin-right: 2rem;
 
-  text-align: left;
+ 
+}
+
+@media (max-width: 768px) {
+  .about-wraper {
+    
+    height: 100%;
+  }
+
+  
+  .about-title {
+    margin: 2rem 2rem 2rem 2rem;
+    font-size: 3rem;
+  }
+  .about-subtitle {
+    text-align: center;
+    font-size: 2.0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .about-text {
+    text-align: center;
+    font-size: 1rem;
+    
+    margin-right: 2rem;
+  
+    
+  }
+  .about-img {
+    justify-self: center;
+    text-align: center;
+  }
+  .about-img img {
+    width: 300px;
+    border-radius: 0.5rem;
+  }
 }
 
 /******************************* SKILLS *********************************/
@@ -314,7 +346,7 @@ a.github:hover {
   background: var(--primary-white) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 160vh;
+  height: 100%;
 }
 
 .skills-main {
@@ -322,12 +354,8 @@ a.github:hover {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   color: rgb(53, 53, 53);
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  overflow: hidden;
+  padding-top: 5rem;
   flex-direction: column;
   margin-top: 3rem;
 }
@@ -369,7 +397,7 @@ a.github:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+
   font-weight: 600;
   padding: 0.5rem 1rem;
   margin-bottom: 2rem;
@@ -398,6 +426,56 @@ a.github:hover {
   width: 100%;
 }
 
+
+@media (max-width: 768px) {
+  .skills-wraper {
+    
+    height: 100%;
+  }
+  .skills-main {
+    
+    overflow: auto;
+    
+  }
+  
+  .skills-title {
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    font-size: 3rem;
+    
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  .skills-box {
+    align-content: center;
+    text-align: center;
+  }
+  
+  .skill-main-box.col-3{
+   margin-left: 5rem;
+   width: 90% !important;
+   text-align: center;
+   
+  }
+  
+  .skills {
+    justify-content: center;
+    text-align: center;
+  }
+  .skills-subtitle {
+    margin-bottom: 1rem;
+   
+  }
+  .skills-text {
+    margin-bottom: 2rem;
+   text-align: center;
+  }
+
+  
+  
+}
+
 /******************************* PROJECTS *********************************/
 
 .project-wraper {
@@ -405,7 +483,7 @@ a.github:hover {
   background: var(--primary-white) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 110vh;
+  height: 100%;
 }
 
 .project-main {
@@ -413,12 +491,8 @@ a.github:hover {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   color: rgb(53, 53, 53);
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  overflow: hidden;
+  padding-top: 5rem;
   flex-direction: column;
   margin-top: 3rem;
 }
@@ -436,7 +510,7 @@ a.github:hover {
 
 .project {
   background-color: var(--primary-white);
-  position: absolute;
+
   top: 0;
   left: 0;
   right: 0;
@@ -452,7 +526,6 @@ a.github:hover {
   justify-items: center;
 }
 .project-img {
-  position: relative;
   overflow: hidden;
   margin-left: 6rem;
   justify-items: center;
@@ -484,6 +557,47 @@ a.github:hover {
   color: black;
 }
 
+@media (max-width: 768px) {
+  .project-wraper {
+   
+    height: 100%;
+  }
+  
+  .project-main {
+   
+    padding-top: 1rem;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  
+  .project-title {
+    margin: 5rem 2rem 2rem 2rem;
+    
+    font-size: 3rem;
+    
+  }
+  
+  
+  
+  .project-row {
+    margin: 3rem 3rem 3rem 3rem;
+    flex-direction: column;
+  }
+  .col-3 {
+    width: 100% !important;
+    margin-top: 2rem;
+  }
+  
+  .project-img {
+    overflow: hidden;
+    margin-left: 1rem;
+    margin-top: 2rem !important;
+    margin-right: 1rem;
+   text-align: center;
+  }
+ 
+}
+
 /******************************* TIMELINE/EXPERIENCE *********************************/
 
 .timeline-wraper {
@@ -491,7 +605,7 @@ a.github:hover {
   background: var(--primary-white) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 240vh;
+  height: 100%;
 }
 
 .timeline-main {
@@ -499,12 +613,8 @@ a.github:hover {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   color: rgb(53, 53, 53);
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  overflow: hidden;
+  padding-top: 5rem;
   flex-direction: column;
   margin-top: 3rem;
 }
@@ -559,13 +669,35 @@ a.github:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .timeline-wraper {
+   
+    height: 100%;
+  }
+  
+  .timeline-main {
+   
+    padding-top: 1rem;
+    
+  }
+  
+  .timeline-title {
+    margin: 5rem 2rem 2rem 2rem;
+    
+    font-size: 3rem;
+    
+  }
+  
+ 
+}
+
 /******************************* Contact *********************************/
 .contact-wraper {
   position: relative;
   background: var(--primary-white) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 100%;
 }
 
 .contact-main {
@@ -573,21 +705,22 @@ a.github:hover {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   color: rgb(53, 53, 53);
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  overflow: hidden;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   flex-direction: column;
   margin-top: 3rem;
 }
 
+.contact-header {
+  display: flex !important;
+}
 .contact_info_item {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   padding: 1em 1em;
   background-color: var(--primary-white);
   border: 1px solid var(--primary-grey-bg);
+  display: flex !important;
 }
 
 .contact_info_item img {
@@ -629,6 +762,7 @@ a.github:hover {
 .contact_form_name {
   margin-left: 1rem;
   padding-right: 3rem;
+  display: flex !important;
 }
 
 input {
@@ -682,12 +816,120 @@ input:focus {
   width: 90%;
 }
 
+@media (max-width: 768px) {
+  .contact-wraper {
+   
+    height: 100%;
+  }
+  
+  .contact-main {
+    
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  
+  .contact_info_item {
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    
+  }
+  
+  .contact_info_item img {
+    margin-right: 1rem;
+  }
+  
+  .contact-title {
+    margin: 5rem 2rem 2rem 2rem;
+    
+    font-size: 3rem;
+   
+  }
+  
+  
+  
+  .contact_form_conatiner {
+    
+    padding: 1rem 1rem;
+   
+  }
+  
+  .contact_form_title {
+    font-size: 1.7rem;
+    
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  
+ 
+  .contact-header{
+    display: inline !important;
+  }
+  .contact_form_name {
+    margin-left: 1rem;
+    padding-right: 3rem;
+    display: inline !important;
+    justify-content: left;
+    width: 50%;
+    
+  }
+
+  .contact_form_email {
+    margin-left: 2rem;
+    width: 50%;
+  }
+
+  .contact_form_phone {
+    margin-left: 2rem;
+    width: 50%;
+  }
+
+  .contact_form_subject {
+    margin-left: 2rem;
+  }
+  
+  input {
+    padding: 0.5em 0.5em;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid var(--primary-tomato);
+  }
+  
+  .text_field {
+    margin-left: 2rem;
+    outline: none;
+    border: 0.5px medium;
+    color: black;
+    border-radius: 0.35rem;
+    padding: 1em 1em;
+    height: 8em;
+    width: 21em;
+  }
+  
+  
+  
+  
+  
+  .contact-email-subject input {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 80%;
+  }
+  
+}
+
 /*********************************FOOTER****************************/
 .footer {
   color: #fff;
   text-align: center;
   font-weight: 600;
+  
   padding: 2rem 0;
+  height: 100%;
 }
 .footer-title {
   font-size: 2rem;

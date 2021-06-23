@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import SocialMedia from "./SocialMedia";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -24,9 +25,9 @@ const Header = () => {
           loop
         />
 
-        <a href="#" className="btn-main-offer">
+        <Link to="contact" className="btn-main-offer">
           Let's collab!
-        </a>
+        </Link>
 
         {/* <span>
           <button className="btn-main-offer">

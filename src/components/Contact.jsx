@@ -57,9 +57,9 @@ function Contact() {
         <div className="contact-info">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-6 offset-lg-3 d-flex justify-content-between">
+              <div className="contact-header col-lg-6 offset-lg-3 justify-content-between">
                 <div
-                  className="contact_info_item d-flex justify-content-start align-items-center"
+                  className="contact_info_item justify-content-start align-items-center"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-delay="50"
@@ -133,7 +133,7 @@ function Contact() {
                 >
                   <div className="contact_form_title">Get in Touch</div>
                   <form id="contact_form" onSubmit={sendEmail}>
-                    <div className="contact_form_name d-flex justify-content-between align-items-between">
+                    <div className="contact_form_name justify-content-between align-items-between">
                       <input
                         type="text"
                         id="contact_form_name"

@@ -286,7 +286,7 @@ function Skills() {
               Services like
             </p>
             <div className="skills-box">
-              <div
+              {/* <div
                 className="skills-data"
                 data-aos="fade-right"
                 data-aos-offset="200"
@@ -305,7 +305,7 @@ function Skills() {
                     className="skill-icon"
                   />
                 </div>
-              </div>
+              </div> */}
               <div
                 className="skills-data"
                 data-aos="fade-right"
