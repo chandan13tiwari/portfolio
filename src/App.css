@@ -577,10 +577,26 @@ a.github:hover {
     
   }
   
-  
+  .project-link {
+    position: absolute;
+    bottom: -100%;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1.6rem;
+  }
   
   .project-row {
-    margin: 3rem 3rem 3rem 3rem;
+    margin: 1rem 1rem 1rem 1rem;
     flex-direction: column;
   }
   .col-3 {
@@ -873,18 +889,18 @@ input:focus {
     padding-right: 3rem;
     display: inline !important;
     justify-content: left;
-    width: 50%;
+    width: 80%;
     
   }
 
   .contact_form_email {
     margin-left: 2rem;
-    width: 50%;
+    width: 80%;
   }
 
   .contact_form_phone {
     margin-left: 2rem;
-    width: 50%;
+    width: 80%;
   }
 
   .contact_form_subject {
@@ -907,7 +923,7 @@ input:focus {
     border-radius: 0.35rem;
     padding: 1em 1em;
     height: 8em;
-    width: 21em;
+    width: 15em;
   }
   
   

@@ -138,7 +138,7 @@ function Contact() {
                         type="text"
                         id="contact_form_name"
                         className="contact_form_name input_field"
-                        placeholder="Your Name"
+                        placeholder="Name"
                         required="true"
                         name="name"
                       />
@@ -147,7 +147,7 @@ function Contact() {
                         type="email"
                         id="contact_form_email"
                         className="contact_form_email input_field"
-                        placeholder="Your Email"
+                        placeholder="Email"
                         required="true"
                         name="email"
                       />
@@ -156,7 +156,7 @@ function Contact() {
                         type="text"
                         id="contact_form_phone"
                         className="contact_form_phone input_field"
-                        placeholder="Your Phone Number"
+                        placeholder="Phone Number"
                         required="true"
                         name="phone"
                       />
