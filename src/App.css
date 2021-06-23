@@ -434,7 +434,7 @@ a.github:hover {
   }
   .skills-main {
     
-    overflow: auto;
+    overflow: hidden;
     
   }
   

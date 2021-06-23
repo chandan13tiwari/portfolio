@@ -4,7 +4,7 @@ let timelineElements = [
     title: "AWS Certified Solution Architect",
     location: "Assosiate Level",
     description:
-      "Learning world's most comprehensive and broadly adopted cloud platform we services.",
+      "Learning world's most comprehensive and broadly adopted cloud platform.",
     date: "2021 - present",
   },
 
