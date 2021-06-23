@@ -4,6 +4,9 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { faPhoneAlt, faMapMarkerAlt, faAt } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   useEffect(() => {
@@ -66,9 +69,10 @@ function Contact() {
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
                 >
-                  <img
-                    src="https://img.icons8.com/office/24/000000/phone.png"
-                    alt="phone"
+                  <FontAwesomeIcon
+                    icon={faPhoneAlt}
+                    size="2x"
+                    className="contact-icon"
                   />
                   <div className="contact_info_content">
                     <div className="contact_info_title">Phone</div>
@@ -85,9 +89,10 @@ function Contact() {
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
                 >
-                  <img
-                    src="https://img.icons8.com/office/24/000000/email.png"
-                    alt="phone"
+                   <FontAwesomeIcon
+                    icon={faAt}
+                    size="2x"
+                    className="contact-icon"
                   />
                   <div className="contact_info_content">
                     <div className="contact_info_title">Email</div>
@@ -105,9 +110,10 @@ function Contact() {
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
                 >
-                  <img
-                    src="https://img.icons8.com/office/24/000000/address.png"
-                    alt="phone"
+                  <FontAwesomeIcon
+                    icon={faMapMarkerAlt}
+                    size="2x"
+                    className="contact-icon"
                   />
                   <div className="contact_info_content">
                     <div className="contact_info_title">Address</div>
