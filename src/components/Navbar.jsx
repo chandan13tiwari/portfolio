@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container">
         <a className="navbar-brand" href="#">
           <div className="name">
-            <h1>Chandan Tiwari</h1>
+            <h1>Hello World!</h1>
           </div>
         </a>
         <button
