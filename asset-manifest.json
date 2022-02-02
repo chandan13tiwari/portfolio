@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.97ab030a.chunk.css",
-    "main.js": "/portfolio/static/js/main.5a2dafd1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5a2dafd1.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.88b31663.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.88b31663.js.map",
+    "main.js": "/portfolio/static/js/main.c8e59685.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c8e59685.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.1930e5a4.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.1930e5a4.js.map",
     "static/css/2.7021270f.chunk.css": "/portfolio/static/css/2.7021270f.chunk.css",
-    "static/js/2.e87ca0b9.chunk.js": "/portfolio/static/js/2.e87ca0b9.chunk.js",
-    "static/js/2.e87ca0b9.chunk.js.map": "/portfolio/static/js/2.e87ca0b9.chunk.js.map",
-    "static/js/3.3b056a77.chunk.js": "/portfolio/static/js/3.3b056a77.chunk.js",
-    "static/js/3.3b056a77.chunk.js.map": "/portfolio/static/js/3.3b056a77.chunk.js.map",
+    "static/js/2.58a71cef.chunk.js": "/portfolio/static/js/2.58a71cef.chunk.js",
+    "static/js/2.58a71cef.chunk.js.map": "/portfolio/static/js/2.58a71cef.chunk.js.map",
+    "static/js/3.7ea5a27e.chunk.js": "/portfolio/static/js/3.7ea5a27e.chunk.js",
+    "static/js/3.7ea5a27e.chunk.js.map": "/portfolio/static/js/3.7ea5a27e.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.7021270f.chunk.css.map": "/portfolio/static/css/2.7021270f.chunk.css.map",
     "static/css/main.97ab030a.chunk.css.map": "/portfolio/static/css/main.97ab030a.chunk.css.map",
-    "static/js/2.e87ca0b9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e87ca0b9.chunk.js.LICENSE.txt",
+    "static/js/2.58a71cef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.58a71cef.chunk.js.LICENSE.txt",
     "static/media/capg2.111aac0a.jpg": "/portfolio/static/media/capg2.111aac0a.jpg",
     "static/media/gehu2.b7d8ed90.jpg": "/portfolio/static/media/gehu2.b7d8ed90.jpg",
     "static/media/hsbc.42ace384.jpeg": "/portfolio/static/media/hsbc.42ace384.jpeg",
@@ -26,10 +26,10 @@
     "static/media/work6.07ea548d.jpg": "/portfolio/static/media/work6.07ea548d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.88b31663.js",
+    "static/js/runtime-main.1930e5a4.js",
     "static/css/2.7021270f.chunk.css",
-    "static/js/2.e87ca0b9.chunk.js",
+    "static/js/2.58a71cef.chunk.js",
     "static/css/main.97ab030a.chunk.css",
-    "static/js/main.5a2dafd1.chunk.js"
+    "static/js/main.c8e59685.chunk.js"
   ]
 }
