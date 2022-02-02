@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import project1 from "../asset/work1.jpg";
-import project2 from "../asset/work2.jpg";
-import project3 from "../asset/work3.jpg";
+import hsbc from "../asset/hsbc.jpeg";
+import capg from "../asset/capg2.jpg";
+import gehu from "../asset/gehu2.jpg";
 import project4 from "../asset/work4.jpg";
 import project5 from "../asset/work5.jpg";
 import project6 from "../asset/work6.jpg";
@@ -37,7 +37,7 @@ function Projects() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              <img src={project1} alt="" />
+              <img src={hsbc} alt="" className="proj-img"/>
 
               <div className="project-link">
                 <a href="#" className="project-link-name">
@@ -53,7 +53,7 @@ function Projects() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              <img src={project2} alt="" />
+              <img src={hsbc} alt="" className="proj-img"/>
 
               <div className="project-link">
                 <a href="#" className="project-link-name">
@@ -69,7 +69,7 @@ function Projects() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              <img src={project3} alt="" />
+              <img src={hsbc} alt="" className="proj-img"/>
 
               <div className="project-link">
                 <a href="#" className="project-link-name">
@@ -87,7 +87,7 @@ function Projects() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              <img src={project4} alt="" />
+              <img src={gehu} alt="" className="proj-img"/>
 
               <div className="project-link">
                 <a href="#" className="project-link-name">
@@ -103,7 +103,7 @@ function Projects() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              <img src={project5} alt="" />
+              <img src={capg} alt="" className="proj-img"/>
 
               <div className="project-link">
                 <a href="#" className="project-link-name">
@@ -119,7 +119,7 @@ function Projects() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              <img src={project6} alt="" />
+              <img src={capg} alt="" className="proj-img"/>
 
               <div className="project-link">
                 <a href="#" className="project-link-name">

@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import SocialMedia from "./SocialMedia";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -12,9 +13,10 @@ const Header = () => {
         <Typed
           className="typed-text"
           strings={[
-            "Senior Software Engineer",
+            "Tech Consultant",
+            "Software Engineer",
             "Full Stack Developer",
-            "AWS Certified Solution Architect",
+            // "AWS Certified Solution Architect",
             "Senior Analyst",
             "Music Composer",
             "Music Production",
@@ -24,9 +26,9 @@ const Header = () => {
           loop
         />
 
-        <a href="#" className="btn-main-offer">
+        <Link to="contact" className="btn-main-offer">
           Let's collab!
-        </a>
+        </Link>
 
         {/* <span>
           <button className="btn-main-offer">

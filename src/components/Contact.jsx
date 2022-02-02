@@ -4,6 +4,9 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { faPhoneAlt, faMapMarkerAlt, faAt } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   useEffect(() => {
@@ -57,18 +60,19 @@ function Contact() {
         <div className="contact-info">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-6 offset-lg-3 d-flex justify-content-between">
+              <div className="contact-header col-lg-6 offset-lg-3 justify-content-between">
                 <div
-                  className="contact_info_item d-flex justify-content-start align-items-center"
+                  className="contact_info_item justify-content-start align-items-center"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-delay="50"
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
                 >
-                  <img
-                    src="https://img.icons8.com/office/24/000000/phone.png"
-                    alt="phone"
+                  <FontAwesomeIcon
+                    icon={faPhoneAlt}
+                    size="2x"
+                    className="contact-icon"
                   />
                   <div className="contact_info_content">
                     <div className="contact_info_title">Phone</div>
@@ -85,9 +89,10 @@ function Contact() {
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
                 >
-                  <img
-                    src="https://img.icons8.com/office/24/000000/email.png"
-                    alt="phone"
+                   <FontAwesomeIcon
+                    icon={faAt}
+                    size="2x"
+                    className="contact-icon"
                   />
                   <div className="contact_info_content">
                     <div className="contact_info_title">Email</div>
@@ -105,9 +110,10 @@ function Contact() {
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
                 >
-                  <img
-                    src="https://img.icons8.com/office/24/000000/address.png"
-                    alt="phone"
+                  <FontAwesomeIcon
+                    icon={faMapMarkerAlt}
+                    size="2x"
+                    className="contact-icon"
                   />
                   <div className="contact_info_content">
                     <div className="contact_info_title">Address</div>
@@ -133,12 +139,12 @@ function Contact() {
                 >
                   <div className="contact_form_title">Get in Touch</div>
                   <form id="contact_form" onSubmit={sendEmail}>
-                    <div className="contact_form_name d-flex justify-content-between align-items-between">
+                    <div className="contact_form_name justify-content-between align-items-between">
                       <input
                         type="text"
                         id="contact_form_name"
                         className="contact_form_name input_field"
-                        placeholder="Your Name"
+                        placeholder="Name"
                         required="true"
                         name="name"
                       />
@@ -147,7 +153,7 @@ function Contact() {
                         type="email"
                         id="contact_form_email"
                         className="contact_form_email input_field"
-                        placeholder="Your Email"
+                        placeholder="Email"
                         required="true"
                         name="email"
                       />
@@ -156,7 +162,7 @@ function Contact() {
                         type="text"
                         id="contact_form_phone"
                         className="contact_form_phone input_field"
-                        placeholder="Your Phone Number"
+                        placeholder="Phone Number"
                         required="true"
                         name="phone"
                       />

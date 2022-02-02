@@ -27,7 +27,11 @@ function SocialMedia() {
       >
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
-      <a href="#" className="twitter social" target="_blank">
+      <a
+        href="https://twitter.com/Chandan13tiwari"
+        className="twitter social"
+        target="_blank"
+      >
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a
