@@ -3,8 +3,9 @@ import spring from "../asset/spring2.png";
 import oracle from "../asset/oracle.png";
 import rtc from "../asset/rtc.jpg";
 import sql from "../asset/sql.png";
-import kana from "../asset/kana.jpeg";
-import bsc from "../asset/bsc.png";
+import splunk from "../asset/splunk.png";
+import postgre from "../asset/post.png";
+import elk from "../asset/elk.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faJava,
@@ -12,7 +13,9 @@ import {
   faAngular,
   faJenkins,
   faAws,
-  faGithub,
+  faGithub, 
+  faBitbucket,
+  faDocker
 } from "@fortawesome/free-brands-svg-icons";
 import { faMusic, faMicrophone } from "@fortawesome/free-solid-svg-icons";
 import Aos from "aos";
@@ -57,7 +60,7 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Having more than 8+ yrs of experience on some Frontend & Backend
+              Having more than 8+ yrs of experience in Frontend & Backend
               languages like
             </p>
             <div className="skills-box">
@@ -70,7 +73,7 @@ function Skills() {
                 data-aos-easing="ease-in-out"
               >
                 <div className="skills-names">
-                  <span className="skills-name">JAVA</span>
+                  <span className="skills-name">JAVA 8</span>
                 </div>
                 <div className="skills-bar skills-java"></div>
                 <div>
@@ -196,6 +199,22 @@ function Skills() {
                   <img src={sql} className="skill-icon" width="35px" />
                 </div>
               </div>
+              <div
+                className="skills-data"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
+                <div className="skills-names">
+                  <span className="skills-name">PostgreSql</span>
+                </div>
+                <div className="skills-bar skills-postgres"></div>
+                <div>
+                  <img src={postgre} className="skill-icon" width="35px" />
+                </div>
+              </div>
             </div>
           </div>
 
@@ -218,8 +237,7 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Having knowledge on how to collab with others and keep track of
-              our projects using
+              Having knowledge on how to collab with others and contribute to projects using
             </p>
             <div className="skills-box">
               <div
@@ -251,6 +269,27 @@ function Skills() {
                 data-aos-easing="ease-in-out"
               >
                 <div className="skills-names">
+                  <span className="skills-name">BitBucket</span>
+                </div>
+                <div className="skills-bar skills-bitbucket"></div>
+                <div>
+                  <FontAwesomeIcon
+                    icon={faBitbucket}
+                    size="2x"
+                    className="skill-icon"
+                  />
+                </div>
+              </div>
+              
+              <div
+                className="skills-data"
+                data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
+                <div className="skills-names">
                   <span className="skills-name">RTC</span>
                 </div>
                 <div className="skills-bar skills-rtc"></div>
@@ -272,7 +311,7 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              CRM Softwares
+              DevOps Tools
             </h2>
             <p
               className="skills-text"
@@ -282,11 +321,10 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Having experience on some Customer Relationship Management
-              Services like
+              Having experience automating and integrating the process between Software Development and IT teams like
             </p>
             <div className="skills-box">
-              {/* <div
+              <div
                 className="skills-data"
                 data-aos="fade-right"
                 data-aos-offset="200"
@@ -305,7 +343,7 @@ function Skills() {
                     className="skill-icon"
                   />
                 </div>
-              </div> */}
+              </div>
               <div
                 className="skills-data"
                 data-aos="fade-right"
@@ -315,11 +353,11 @@ function Skills() {
                 data-aos-easing="ease-in-out"
               >
                 <div className="skills-names">
-                  <span className="skills-name">KANA.</span>
+                  <span className="skills-name">ELK Stack</span>
                 </div>
-                <div className="skills-bar skills-kana"></div>
+                <div className="skills-bar skills-elk"></div>
                 <div>
-                  <img src={kana} className="skill-icon" width="35px" />
+                <img src={elk} className="skill-icon" width="35px" />
                 </div>
               </div>
               <div
@@ -331,13 +369,34 @@ function Skills() {
                 data-aos-easing="ease-in-out"
               >
                 <div className="skills-names">
-                  <span className="skills-name">Brickstreet Connect</span>
+                  <span className="skills-name">Splunk</span>
                 </div>
-                <div className="skills-bar skills-bsc"></div>
+                <div className="skills-bar skills-splunk"></div>
                 <div>
-                  <img src={bsc} className="skill-icon" width="35px" />
+                <img src={splunk} className="skill-icon" width="35px" />
                 </div>
               </div>
+              <div
+                className="skills-data"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
+                <div className="skills-names">
+                  <span className="skills-name">Docker</span>
+                </div>
+                <div className="skills-bar skills-docker"></div>
+                <div>
+                  <FontAwesomeIcon
+                    icon={faDocker}
+                    size="2x"
+                    className="skill-icon"
+                  />
+                </div>
+              </div>
+              
             </div>
           </div>
 

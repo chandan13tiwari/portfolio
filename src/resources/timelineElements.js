@@ -1,10 +1,10 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Consultant",
+    title: "Tech Consultant",
     location: "EY, Gurgaon",
     description:
-      "Currently working in EY (one of the Big4) as Tech Consultant.",
+      "Currently working in EY (one of the Big4) as Senior Tech Consultant. Working as Engineer III in American Express projects.",
     date: "Dec 2021 - present",
   },
   {
@@ -12,7 +12,7 @@ let timelineElements = [
     title: "AWS Certification training for Solution Architect",
     location: "Assosiate Level",
     description:
-      "Learning world's most comprehensive and broadly adopted cloud platform.",
+      "Basic understanding on AWS Solution architecture ans system design.",
     date: "Aug 2021 - Oct 2021",
   },
 
@@ -21,7 +21,7 @@ let timelineElements = [
     title: "Senior Analyst/Software Engineer",
     location: "Capgemini India, Pune",
     description:
-      "Worked as a Senior Analyst/Software Engineer for a Multi National firm. Working for HSBC Bank as a contractor.",
+      "Worked as a Senior Analyst/Software Engineer for a Multi National firm. Worked on HSBC UK and HSBC France projects as Development Engineer.",
 
     date: "Jul 2020 - Nov 2021",
   },
@@ -30,7 +30,7 @@ let timelineElements = [
     title: "Analyst",
     location: "Capgemini India,Pune",
     description:
-      "My first job as Analyst after college placements in a Multi National firm.",
+      "My first job as Analyst after college placements in a Multi National firm. From here I step in to IT industry",
 
     date: "Jun 2019 - Jul 2020",
   },

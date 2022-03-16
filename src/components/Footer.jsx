@@ -7,7 +7,7 @@ function Footer() {
     <div>
       <footer class="footer bg-dark">
         <p class="footer-title">
-          It all starts with, <em>print "Hello World!"</em>
+          It all started with, <em>print "Hello World!"</em>
         </p>
         <div class="footer-social">
           <SocialMedia />
