@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import hsbc from "../asset/hsbc.jpeg";
 import capg from "../asset/capg2.jpg";
 import gehu from "../asset/gehu2.jpg";
-import aexp from "../asset/amex.jpeg";
+import aexp from "../asset/amex.jpg";
 import personal from "../asset/secure.png";
 import project4 from "../asset/work4.jpg";
 import project5 from "../asset/work5.jpg";
