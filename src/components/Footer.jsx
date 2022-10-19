@@ -15,7 +15,7 @@ function Footer() {
         <p>
           For any queries, write down to{" "}
           <span style={{ textDecoration: "underline" }}>
-            chandan13tiwaris@gmail.com
+            chandan.tiwaris@outlook.com
           </span>
         </p>
         <p>Jai Hind! Vande Matram!</p>

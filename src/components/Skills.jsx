@@ -6,6 +6,7 @@ import sql from "../asset/sql.png";
 import splunk from "../asset/splunk.png";
 import postgre from "../asset/post.png";
 import elk from "../asset/elk.png";
+import camel from "../asset/camel.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faJava,
@@ -50,7 +51,7 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Languages
+              Languages & Frameworks
             </h2>
             <p
               className="skills-text"
@@ -61,7 +62,7 @@ function Skills() {
               data-aos-easing="ease-in-out"
             >
               Having more than 8+ yrs of experience in Frontend & Backend
-              languages like
+               and frameworks like
             </p>
             <div className="skills-box">
               <div
@@ -73,7 +74,7 @@ function Skills() {
                 data-aos-easing="ease-in-out"
               >
                 <div className="skills-names">
-                  <span className="skills-name">JAVA 8</span>
+                  <span className="skills-name">JAVA 17</span>
                 </div>
                 <div className="skills-bar skills-java"></div>
                 <div>
@@ -139,6 +140,22 @@ function Skills() {
                     size="2x"
                     className="skill-icon"
                   />
+                </div>
+              </div>
+              <div
+                className="skills-data"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
+                <div className="skills-names">
+                  <span className="skills-name">Apache Camel</span>
+                </div>
+                <div className="skills-bar skills-camel"></div>
+                <div>
+                  <img src={camel} className="skill-icon" width="35px" />
                 </div>
               </div>
             </div>

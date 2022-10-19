@@ -97,7 +97,7 @@ function Contact() {
                   <div className="contact_info_content">
                     <div className="contact_info_title">Email</div>
                     <div className="contact_info_text">
-                      chandan13tiwaris@gmail.com
+                      chandan.tiwaris@outlook.com
                     </div>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ function Contact() {
                   />
                   <div className="contact_info_content">
                     <div className="contact_info_title">Address</div>
-                    <div className="contact_info_text">Haldwani, India</div>
+                    <div className="contact_info_text">Uttarakhand, India</div>
                   </div>
                 </div>
               </div>

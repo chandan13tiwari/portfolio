@@ -14,7 +14,7 @@ function SocialMedia() {
   return (
     <div className="social-container">
       <a
-        href="https://www.youtube.com/channel/UCxyt1YhqRwyNajqyEbk4lMQ"
+        href="https://www.youtube.com/channel/UCUCTbkGwNK5tUut7wJKqbaA"
         className="youtube social"
         target="_blank"
       >
