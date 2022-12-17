@@ -53,10 +53,10 @@ function About() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              I came from a small city in Uttarakhand named Haldwani, which is located near Nainital. Having over more than 8+ years of experience in coding and different programming languages and 3+ years of experience in IT industry. A Big fan of JAVA.
+              Hey there! I'm from Uttarakhand (India), also known as "Land of the Gods". I've more than 3 years of professional experience in IT sector and developing Softwares for different multi national clients. <em>A Big fan of JAVA!</em> 
               <br /> <br />
-              Apart from having my professional life, I'm more into Music. Having more than 3+ years experience in professional music production. Singing and music composition are my stress busters.
-            </p>
+              With my professional career, I'm also passionate about Music. I always enjoy staying at home and producing some good music! I'm not much of an outdoor person. I love rainy days where I can wrap myself in a blanket and binge-watch series without feeling guilty! I speak Hindi, English and obviously JAVA ;-P.
+              </p>
           </div>
         </div>
       </div>

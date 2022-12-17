@@ -6,6 +6,7 @@ let timelineElements = [
     description:
       "Currently working in EY (one of the Big4) as Senior Tech Consultant. Working as Engineer III in American Express projects.",
     date: "Dec 2021 - present",
+    icon: "ey"
   },
   {
     id: 2,

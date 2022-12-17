@@ -61,7 +61,7 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Having more than 8+ yrs of experience in Frontend & Backend
+              Having more than 8+ yrs of experience in Backend development
                and frameworks like
             </p>
             <div className="skills-box">
@@ -74,7 +74,7 @@ function Skills() {
                 data-aos-easing="ease-in-out"
               >
                 <div className="skills-names">
-                  <span className="skills-name">JAVA 17</span>
+                  <span className="skills-name">JAVA</span>
                 </div>
                 <div className="skills-bar skills-java"></div>
                 <div>
@@ -338,7 +338,7 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Having experience automating and integrating the process between Software Development and IT teams like
+              Knowledge of automating and integrating the process between Software Development and management like
             </p>
             <div className="skills-box">
               <div
@@ -472,7 +472,7 @@ function Skills() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Extra
+              Hobbies
             </h2>
             <p
               className="skills-text"

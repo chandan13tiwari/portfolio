@@ -77,7 +77,6 @@ function Contact() {
                   <div className="contact_info_content">
                     <div className="contact_info_title">Phone</div>
                     <div className="contact_info_text">+91 9761760261</div>
-                    <div className="contact_info_text">+91 6395973814</div>
                   </div>
                 </div>
 
