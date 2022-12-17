@@ -16,7 +16,7 @@ const Header = () => {
             "Tech Consultant",
             "Software Engineer",
             "Full Stack Developer",
-            // "AWS Certified Solution Architect",
+            "AWS Certified Cloud Practitioner",
             "Senior Analyst",
             "Music Composer",
             "Music Production",
