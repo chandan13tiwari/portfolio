@@ -561,6 +561,36 @@ a.github:hover {
   text-decoration: none;
 }
 
+.proj-title {
+  color: var(--primary-orange);
+  margin-bottom: 0.25em;
+  padding-top: 0.25em;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.proj-description h4 {
+  margin-bottom: 0.25em;
+  padding-top: 1em;
+  margin-left: 0.7em;
+  font-size: 1.4em;
+  color: rgb(93, 91, 91);
+}
+
+.proj-description p {
+  margin: 1.5em 0 2em 1em;
+  color: var(--primary-grey-text);
+}
+
+.btn-primary {
+  border-radius: 10em;
+  background: linear-gradient(to bottom, rgb(255, 153, 0) 0%, #ddb04f 100%);
+  color: #fff;
+  --bs-btn-color: black !important;
+  --bs-btn-bg: rgb(255, 153, 0) !important;
+  --bs-btn-border-color: none !important;
+}
+
 @media (max-width: 768px) {
   .project-wraper {
    

@@ -18,8 +18,7 @@ const Header = () => {
             "Full Stack Developer",
             "AWS Certified Cloud Practitioner",
             "Senior Analyst",
-            "Music Composer",
-            "Music Production",
+            "Music Producer"
           ]}
           typeSpeed={40}
           backSpeed={60}
