@@ -12,9 +12,7 @@ import "aos/dist/aos.css";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-function MyVerticallyCenteredModal(props) {
-  console.log(props);
-  
+function MyVerticallyCenteredModal(props) {  
   return (
     <Modal
       {...props}
@@ -23,7 +21,7 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       {props.project === "Machine Learning Intermediate Module with KANA." && <>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title id="contained-modal-title-vcenter" class="proj-title">
           Machine Learning Intermediate Module with KANA.
           </Modal.Title>
@@ -43,7 +41,7 @@ function MyVerticallyCenteredModal(props) {
       }
 
       {props.project === "Digital KYC & CRS" && <>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title id="contained-modal-title-vcenter" class="proj-title">
           Digital KYC & CRS
           </Modal.Title>
@@ -63,7 +61,7 @@ function MyVerticallyCenteredModal(props) {
       }
 
       {props.project === "Secure File Upload." && <>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title id="contained-modal-title-vcenter" class="proj-title">
           Secure File Upload.
           </Modal.Title>
@@ -83,7 +81,7 @@ function MyVerticallyCenteredModal(props) {
       }
 
       {props.project === "GEHU Online" && <>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title id="contained-modal-title-vcenter" class="proj-title">
           GEHU Online
           </Modal.Title>
@@ -108,7 +106,7 @@ function MyVerticallyCenteredModal(props) {
       }
 
       {props.project === "Config Data Management & Digital Asset Management" && <>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title id="contained-modal-title-vcenter" class="proj-title">
           Config Data Management & Digital Asset Management
           </Modal.Title>
