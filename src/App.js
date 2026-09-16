@@ -11,8 +11,9 @@ import commentEight from "./assets/comments/codex-clipboard-ca54064c-8fb8-496f-b
 import commentNine from "./assets/comments/codex-clipboard-58a13be1-0ae5-4fab-9bd8-5c78246a5c73.png";
 import commentTen from "./assets/comments/codex-clipboard-deac627d-f7cb-402f-a3f7-3365205047d3.png";
 import commentEleven from "./assets/comments/codex-clipboard-ab71e6b0-12f4-4f7a-9fb8-14be43b06406.png";
+import commentTwelve from "./assets/comments/codex-clipboard-cc2f58b8-d497-4f9d-9109-16958f2256aa.png";
 
-const comments = [commentOne, commentTwo, commentThree, commentFour, commentFive, commentSix, commentSeven, commentEight, commentNine, commentTen, commentEleven];
+const comments = [commentOne, commentTwo, commentThree, commentFour, commentFive, commentSix, commentSeven, commentEight, commentNine, commentTen, commentEleven, commentTwelve];
 const Arrow = () => <span aria-hidden="true">↗</span>;
 
 function App() {

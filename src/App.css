@@ -4,3 +4,7 @@
 
 .portrait-head{position:absolute;z-index:2;top:-4px;left:50%;width:520px;max-height:none;object-fit:contain;object-position:top;transform:translateX(-50%);clip-path:inset(0 0 55% 0);pointer-events:none}
 @media(max-width:760px){.portrait-head{top:-13px;width:245px}}
+
+/* Keep every shared community comment visible. */
+.comment-wall{height:1100px}.comment-12{left:8%;top:91%;transform:rotate(-1deg)}
+@media(max-width:760px){.comment-wall{height:1850px}.comment{width:88%}.comment-1{display:block;left:0;top:0}.comment-2{display:block;left:12%;top:8.5%}.comment-3{display:block;left:0;top:17%}.comment-4{display:block;left:12%;top:25.5%}.comment-5{display:block;left:0;top:34%}.comment-6{display:block;left:12%;top:42.5%}.comment-7{display:block;left:0;top:51%}.comment-8{display:block;left:12%;top:59.5%}.comment-9{display:block;left:0;top:68%}.comment-10{display:block;left:12%;top:76.5%}.comment-11{display:block;left:0;top:85%}.comment-12{display:block;left:12%;top:93.5%}}
